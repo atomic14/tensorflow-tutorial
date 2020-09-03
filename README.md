@@ -32,6 +32,12 @@ We then activate our virtual environment using:
 . ./venv/bin/activate
 ```
 
+It's also worth making sure `pip` is up to date:
+
+```
+pip install --upgrade pip
+```
+
 And then we install our dependencies using:
 
 ```
@@ -53,3 +59,21 @@ jupyter notebook .
 ```
 
 You can now open the various notebooks.
+
+# Notebooks
+
+## 1. Binary Classification With TensorFlow
+
+This notebook demonstrates how to classify inputs into 2 categories, True or False.
+
+[![Video](https://img.youtube.com/vi/olkRurD-_t4/0.jpg)](https://www.youtube.com/watch?v=olkRurD-_t4)
+
+## 2. Categorical Classification With TensorFlow
+
+This notebook demonstrates how to classify inputs into multiple potential categories - e.g. Cat, Dog, Horse, Cow...
+
+[![Video](https://img.youtube.com/vi/LPPTi38Zfqc/0.jpg)](https://www.youtube.com/watch?v=LPPTi38Zfqc)
+
+## 3. Sparse Categorical Crossentropy Loss Function
+
+This notebook demonstrates how to use the Sparse Categorical Crossentropy loss function which is similar to the Categorical Crossentropy cost function but removes the need for one-hot encoding the training labels.
