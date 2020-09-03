@@ -1,0 +1,8 @@
+tensorflow
+matplotlib
+pandas
+numpy
+jupyter
+scipy
+tensorflow-io
+tqdm
